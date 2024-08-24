@@ -19,7 +19,7 @@ pvkr split -f large_file.mp4 -s 25000000 -o output_dir
 
 Then to reconstruct the file:
 ```bash
-pvkr weld -f output_dir -o large_file.mp4
+pvkr weld -d output_dir -o large_file.mp4
 ```
 
 See `pvkr --help` for more information
